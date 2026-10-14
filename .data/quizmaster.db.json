@@ -1,0 +1,2460 @@
+{
+  "profiles": [
+    {
+      "id": "admin-master-user",
+      "mobile": "+919876543210",
+      "display_name": "QuizMaster Admin",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "target_exams": [
+        "UPSC Civil Services",
+        "SSC Examinations"
+      ],
+      "total_xp": 1500,
+      "streak_days": 12,
+      "last_active_at": "2026-10-14T16:30:52.972Z",
+      "created_at": "2026-10-14T16:30:52.972Z",
+      "updated_at": "2026-10-14T16:30:52.972Z",
+      "role": "admin"
+    },
+    {
+      "id": "user-1791995453169-aq0ia",
+      "mobile": "+919812345678",
+      "display_name": "Amitabh Sen",
+      "avatar_url": "https://api.dicebear.com/7.x/bottts/svg?seed=+919812345678",
+      "target_exams": [
+        "UPSC Civil Services",
+        "SSC Examinations"
+      ],
+      "total_xp": 40,
+      "streak_days": 1,
+      "last_active_at": "2026-10-14T16:30:53.169Z",
+      "created_at": "2026-10-14T16:30:53.169Z",
+      "updated_at": "2026-10-14T16:30:53.169Z"
+    },
+    {
+      "id": "user-1791995850809-6pdmu",
+      "mobile": "+919322821972",
+      "display_name": "Aspirant_1972",
+      "avatar_url": "https://api.dicebear.com/7.x/bottts/svg?seed=+919322821972",
+      "target_exams": [
+        "UPSC Civil Services"
+      ],
+      "total_xp": 0,
+      "streak_days": 1,
+      "last_active_at": "2026-10-14T16:37:30.809Z",
+      "created_at": "2026-10-14T16:37:30.809Z",
+      "updated_at": "2026-10-14T16:37:30.809Z"
+    }
+  ],
+  "user_roles": [
+    {
+      "id": "ur-admin-1",
+      "user_id": "admin-master-user",
+      "role": "admin",
+      "created_at": "2026-10-14T16:30:52.972Z"
+    },
+    {
+      "id": "ur-1791995453169",
+      "user_id": "user-1791995453169-aq0ia",
+      "role": "student",
+      "created_at": "2026-10-14T16:30:53.169Z"
+    },
+    {
+      "id": "ur-1791995850811",
+      "user_id": "user-1791995850809-6pdmu",
+      "role": "student",
+      "created_at": "2026-10-14T16:37:30.811Z"
+    }
+  ],
+  "exam_categories": [
+    {
+      "id": "cat-upsc",
+      "name": "UPSC Civil Services",
+      "slug": "upsc-civil-services",
+      "icon": "Landmark",
+      "description": "Indian Administrative Service, IPS, IFS, Indian Polity, History, Environment & Current Affairs.",
+      "order_index": 1,
+      "is_active": true,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "cat-ssc",
+      "name": "SSC Examinations",
+      "slug": "ssc-exams",
+      "icon": "Briefcase",
+      "description": "SSC CGL, CHSL, MTS, CPO - Quantitative Aptitude, General Intelligence, English & GK.",
+      "order_index": 2,
+      "is_active": true,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "cat-banking",
+      "name": "Banking & Insurance",
+      "slug": "banking-insurance",
+      "icon": "Building2",
+      "description": "SBI PO, IBPS PO, Clerk, RBI Grade B - Reasoning, Quantitative Aptitude & Financial Awareness.",
+      "order_index": 3,
+      "is_active": true,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "cat-railways",
+      "name": "Railway Recruitment",
+      "slug": "railways-rrb",
+      "icon": "TrainTrack",
+      "description": "RRB NTPC, Group D, ALP - General Science, Mathematics & Reasoning.",
+      "order_index": 4,
+      "is_active": true,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "cat-state-psc",
+      "name": "State PSCs (MPSC / UPPSC / BPSC)",
+      "slug": "state-psc",
+      "icon": "Compass",
+      "description": "State Administrative Services, regional geography, state governance and culture.",
+      "order_index": 5,
+      "is_active": true,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "cat-defense",
+      "name": "Defense (NDA / CDS / AFCAT)",
+      "slug": "defense-nda-cds",
+      "icon": "Shield",
+      "description": "National Defence Academy, Combined Defence Services, Air Force Common Admission Test.",
+      "order_index": 6,
+      "is_active": true,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "cat-tech",
+      "name": "Engineering & Technology",
+      "slug": "engineering-tech",
+      "icon": "Cpu",
+      "description": "GATE CSE, DSA, DBMS, Computer Networks, Operating Systems, Web Development & AI.",
+      "order_index": 7,
+      "is_active": true,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "cat-general",
+      "name": "General Learning & Current Affairs",
+      "slug": "general-current-affairs",
+      "icon": "Globe",
+      "description": "Daily Current Affairs, General Knowledge, Science, Indian Economy & World Affairs.",
+      "order_index": 8,
+      "is_active": true,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    }
+  ],
+  "exam_subjects": [
+    {
+      "id": "sub-upsc-polity",
+      "category_id": "cat-upsc",
+      "name": "Indian Polity & Governance",
+      "slug": "indian-polity",
+      "description": "Constitution, Fundamental Rights, Parliament, Judiciary & Amendments.",
+      "icon": "Scale",
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "sub-upsc-history",
+      "category_id": "cat-upsc",
+      "name": "Modern Indian History",
+      "slug": "modern-history",
+      "description": "Freedom struggle, British rule, social reform movements.",
+      "icon": "Scroll",
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "sub-ssc-quant",
+      "category_id": "cat-ssc",
+      "name": "Quantitative Aptitude",
+      "slug": "quantitative-aptitude",
+      "description": "Arithmetic, Algebra, Geometry, Trigonometry & Data Interpretation.",
+      "icon": "Calculator",
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "sub-bank-reasoning",
+      "category_id": "cat-banking",
+      "name": "Logical & Analytical Reasoning",
+      "slug": "logical-reasoning",
+      "description": "Puzzles, Seating Arrangement, Syllogisms & Critical Reasoning.",
+      "icon": "Brain",
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "sub-tech-dsa",
+      "category_id": "cat-tech",
+      "name": "Data Structures & Algorithms",
+      "slug": "dsa",
+      "description": "Arrays, Trees, Graphs, Dynamic Programming & Complexity Analysis.",
+      "icon": "Binary",
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "sub-general-ca",
+      "category_id": "cat-general",
+      "name": "Current Affairs 2026",
+      "slug": "current-affairs",
+      "description": "National news, multilateral summits, awards, space missions & economic indices.",
+      "icon": "Newspaper",
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    }
+  ],
+  "topics": [],
+  "quizzes": [
+    {
+      "id": "quiz-upsc-polity-prelims",
+      "title": "UPSC CSE: Indian Polity & Constitution Master Mock",
+      "slug": "upsc-cse-indian-polity-master-mock",
+      "description": "Official-pattern UPSC Prelims mock test covering constitutional articles, supreme court rulings, and parliamentary procedures.",
+      "category_id": "cat-upsc",
+      "subject_id": "sub-upsc-polity",
+      "difficulty": "hard",
+      "duration_minutes": 15,
+      "total_marks": 10,
+      "passing_percentage": 50,
+      "negative_marking_per_wrong": 0.33,
+      "is_timed": true,
+      "shuffle_questions": false,
+      "shuffle_options": false,
+      "is_published": true,
+      "published_at": "2026-10-14T16:30:52.958Z",
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "quiz-ssc-cgl-quant",
+      "title": "SSC CGL Tier-1: Quantitative Aptitude Speed Test",
+      "slug": "ssc-cgl-tier-1-quant-speed-test",
+      "description": "High-yield math problems covering percentages, ratios, profit & loss, and geometry.",
+      "category_id": "cat-ssc",
+      "subject_id": "sub-ssc-quant",
+      "difficulty": "medium",
+      "duration_minutes": 10,
+      "total_marks": 10,
+      "passing_percentage": 60,
+      "negative_marking_per_wrong": 0.5,
+      "is_timed": true,
+      "shuffle_questions": false,
+      "shuffle_options": false,
+      "is_published": true,
+      "published_at": "2026-10-14T16:30:52.958Z",
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "quiz-tech-dsa-gate",
+      "title": "GATE Computer Science: DSA & Algorithmic Complexity",
+      "slug": "gate-cs-dsa-mock",
+      "description": "Deep-dive questions on asymptotic analysis, recurrence relations, binary search trees, and graph traversals.",
+      "category_id": "cat-tech",
+      "subject_id": "sub-tech-dsa",
+      "difficulty": "hard",
+      "duration_minutes": 15,
+      "total_marks": 10,
+      "passing_percentage": 50,
+      "negative_marking_per_wrong": 0.33,
+      "is_timed": true,
+      "shuffle_questions": false,
+      "shuffle_options": false,
+      "is_published": true,
+      "published_at": "2026-10-14T16:30:52.958Z",
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "quiz-daily-ca-special",
+      "title": "Daily Current Affairs & National Events Challenge",
+      "slug": "daily-current-affairs-special",
+      "description": "Essential current affairs, science breakthroughs, government initiatives, and international summits.",
+      "category_id": "cat-general",
+      "subject_id": "sub-general-ca",
+      "difficulty": "easy",
+      "duration_minutes": 10,
+      "total_marks": 10,
+      "passing_percentage": 40,
+      "negative_marking_per_wrong": 0.25,
+      "is_timed": true,
+      "shuffle_questions": false,
+      "shuffle_options": false,
+      "is_published": true,
+      "published_at": "2026-10-14T16:30:52.958Z",
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-upsc-1",
+      "quiz_id": "quiz-upsc-polity-prelims",
+      "category_id": "cat-upsc",
+      "subject_id": "sub-upsc-polity",
+      "question_text": "With reference to the Constitution of India, which one of the following rights is guaranteed under Article 21?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.66,
+      "explanation": "Article 21 guarantees Protection of Life and Personal Liberty. The Supreme Court in the historic Justice K.S. Puttaswamy (Retd.) v. Union of India (2017) judgment unanimously held that the Right to Privacy is an intrinsic part of the right to life and personal liberty under Article 21.",
+      "difficulty": "medium",
+      "source_type": "previous_year",
+      "source_reference": "UPSC CSE Prelims Official Paper",
+      "pyq_year": 2018,
+      "pyq_exam": "UPSC Civil Services",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z",
+      "options": [
+        {
+          "id": "opt-u1-1",
+          "question_id": "q-upsc-1",
+          "option_text": "Right to strike against unfair workplace policies",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u1-2",
+          "question_id": "q-upsc-1",
+          "option_text": "Right to Privacy as an intrinsic component of liberty",
+          "is_correct": true,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u1-3",
+          "question_id": "q-upsc-1",
+          "option_text": "Right to property as a fundamental right",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u1-4",
+          "question_id": "q-upsc-1",
+          "option_text": "Right to claim unrestricted government employment",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        }
+      ]
+    },
+    {
+      "id": "q-upsc-2",
+      "quiz_id": "quiz-upsc-polity-prelims",
+      "category_id": "cat-upsc",
+      "subject_id": "sub-upsc-polity",
+      "question_text": "Consider the following statements regarding the Attorney General for India:\n1. He has the right of audience in all courts in India.\n2. He has the right to speak and take part in the proceedings of either House of Parliament.\n3. He has the right to vote in parliamentary joint sessions.\nWhich of the statements given above is/are correct?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.66,
+      "explanation": "Under Article 76 and Article 88 of the Indian Constitution, the Attorney General has the right of audience in all courts in India and can take part in parliamentary proceedings, but has NO right to vote.",
+      "difficulty": "hard",
+      "source_type": "previous_year",
+      "source_reference": "UPSC CSE Prelims Official Paper",
+      "pyq_year": 2021,
+      "pyq_exam": "UPSC Civil Services",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z",
+      "options": [
+        {
+          "id": "opt-u2-1",
+          "question_id": "q-upsc-2",
+          "option_text": "1 only",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u2-2",
+          "question_id": "q-upsc-2",
+          "option_text": "1 and 2 only",
+          "is_correct": true,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u2-3",
+          "question_id": "q-upsc-2",
+          "option_text": "2 and 3 only",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u2-4",
+          "question_id": "q-upsc-2",
+          "option_text": "1, 2 and 3",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        }
+      ]
+    },
+    {
+      "id": "q-upsc-3",
+      "quiz_id": "quiz-upsc-polity-prelims",
+      "category_id": "cat-upsc",
+      "subject_id": "sub-upsc-polity",
+      "question_text": "Which one of the following schedules of the Constitution of India contains provisions regarding anti-defection law?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.66,
+      "explanation": "The 10th Schedule was added by the 52nd Constitutional Amendment Act, 1985, and deals with disqualification on grounds of defection.",
+      "difficulty": "easy",
+      "source_type": "previous_year",
+      "source_reference": "UPSC CSE Prelims",
+      "pyq_year": 2014,
+      "pyq_exam": "UPSC Civil Services",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z",
+      "options": [
+        {
+          "id": "opt-u3-1",
+          "question_id": "q-upsc-3",
+          "option_text": "Seventh Schedule",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u3-2",
+          "question_id": "q-upsc-3",
+          "option_text": "Eighth Schedule",
+          "is_correct": false,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u3-3",
+          "question_id": "q-upsc-3",
+          "option_text": "Tenth Schedule",
+          "is_correct": true,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u3-4",
+          "question_id": "q-upsc-3",
+          "option_text": "Twelfth Schedule",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        }
+      ]
+    },
+    {
+      "id": "q-upsc-4",
+      "quiz_id": "quiz-upsc-polity-prelims",
+      "category_id": "cat-upsc",
+      "subject_id": "sub-upsc-polity",
+      "question_text": "In the Indian parliamentary model, a Money Bill can be introduced only in:",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.66,
+      "explanation": "Under Article 109 of the Constitution of India, a Money Bill shall not be introduced in the Council of States (Rajya Sabha). It can only be introduced in the Lok Sabha with the prior recommendation of the President.",
+      "difficulty": "easy",
+      "source_type": "curated",
+      "source_reference": "Constitution of India Art 109",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z",
+      "options": [
+        {
+          "id": "opt-u4-1",
+          "question_id": "q-upsc-4",
+          "option_text": "The Lok Sabha with the prior recommendation of the President",
+          "is_correct": true,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u4-2",
+          "question_id": "q-upsc-4",
+          "option_text": "Either House of Parliament without any prior recommendation",
+          "is_correct": false,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u4-3",
+          "question_id": "q-upsc-4",
+          "option_text": "The Rajya Sabha directly by the Finance Minister",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u4-4",
+          "question_id": "q-upsc-4",
+          "option_text": "A joint committee of both Houses",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        }
+      ]
+    },
+    {
+      "id": "q-upsc-5",
+      "quiz_id": "quiz-upsc-polity-prelims",
+      "category_id": "cat-upsc",
+      "subject_id": "sub-upsc-polity",
+      "question_text": "Which writ is issued by the higher courts to command an inferior court or tribunal to perform its legal duty?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.66,
+      "explanation": "Mandamus literally means \"We Command\". It is an order from a superior court to any government, court, corporation or public authority to do a specific act which that body is obliged under law to do.",
+      "difficulty": "medium",
+      "source_type": "previous_year",
+      "source_reference": "UPSC CSE Prelims",
+      "pyq_year": 2019,
+      "pyq_exam": "UPSC Civil Services",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z",
+      "options": [
+        {
+          "id": "opt-u5-1",
+          "question_id": "q-upsc-5",
+          "option_text": "Habeas Corpus",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u5-2",
+          "question_id": "q-upsc-5",
+          "option_text": "Mandamus",
+          "is_correct": true,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u5-3",
+          "question_id": "q-upsc-5",
+          "option_text": "Quo-Warranto",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-u5-4",
+          "question_id": "q-upsc-5",
+          "option_text": "Certiorari",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        }
+      ]
+    },
+    {
+      "id": "q-ssc-1",
+      "quiz_id": "quiz-ssc-cgl-quant",
+      "category_id": "cat-ssc",
+      "subject_id": "sub-ssc-quant",
+      "question_text": "A shopkeeper sells an article at a discount of 15% on the marked price and still makes a profit of 19%. If the marked price of the article is Rs. 1400, find its cost price.",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "Selling Price (SP) = 1400 * (1 - 0.15) = 1400 * 0.85 = Rs. 1190. Since profit is 19%, SP = CP * 1.19. Therefore CP = 1190 / 1.19 = Rs. 1000.",
+      "difficulty": "medium",
+      "source_type": "previous_year",
+      "source_reference": "SSC CGL Tier 1 Official 2023",
+      "pyq_year": 2023,
+      "pyq_exam": "SSC CGL",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z",
+      "options": [
+        {
+          "id": "opt-s1-1",
+          "question_id": "q-ssc-1",
+          "option_text": "Rs. 950",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-s1-2",
+          "question_id": "q-ssc-1",
+          "option_text": "Rs. 1000",
+          "is_correct": true,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-s1-3",
+          "question_id": "q-ssc-1",
+          "option_text": "Rs. 1050",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-s1-4",
+          "question_id": "q-ssc-1",
+          "option_text": "Rs. 1100",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        }
+      ]
+    },
+    {
+      "id": "q-ssc-2",
+      "quiz_id": "quiz-ssc-cgl-quant",
+      "category_id": "cat-ssc",
+      "subject_id": "sub-ssc-quant",
+      "question_text": "Two trains of lengths 140 m and 160 m run on parallel tracks. When running in the same direction, the faster train passes the slower one in 30 seconds. When running in opposite directions, they pass each other in 6 seconds. What is the speed of the faster train (in km/h)?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "Total distance = 140 + 160 = 300 m. Relative speed in same direction = (v1 - v2) = 300 / 30 = 10 m/s. Relative speed in opposite direction = (v1 + v2) = 300 / 6 = 50 m/s. Adding the equations: 2 * v1 = 60 => v1 = 30 m/s. In km/h: 30 * (18/5) = 108 km/h.",
+      "difficulty": "hard",
+      "source_type": "previous_year",
+      "source_reference": "SSC CGL Tier 1 2022",
+      "pyq_year": 2022,
+      "pyq_exam": "SSC CGL",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z",
+      "options": [
+        {
+          "id": "opt-s2-1",
+          "question_id": "q-ssc-2",
+          "option_text": "72 km/h",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-s2-2",
+          "question_id": "q-ssc-2",
+          "option_text": "90 km/h",
+          "is_correct": false,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-s2-3",
+          "question_id": "q-ssc-2",
+          "option_text": "108 km/h",
+          "is_correct": true,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-s2-4",
+          "question_id": "q-ssc-2",
+          "option_text": "120 km/h",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        }
+      ]
+    },
+    {
+      "id": "q-ssc-3",
+      "quiz_id": "quiz-ssc-cgl-quant",
+      "category_id": "cat-ssc",
+      "subject_id": "sub-ssc-quant",
+      "question_text": "If x + (1/x) = 3, what is the value of x^3 + (1/x^3)?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "Formula: (x + 1/x)^3 = x^3 + 1/x^3 + 3(x + 1/x). Substituting 3: 3^3 = (x^3 + 1/x^3) + 3(3) => 27 = (x^3 + 1/x^3) + 9 => x^3 + 1/x^3 = 18.",
+      "difficulty": "easy",
+      "source_type": "curated",
+      "source_reference": "Standard SSC Algebra Formula",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z",
+      "options": [
+        {
+          "id": "opt-s3-1",
+          "question_id": "q-ssc-3",
+          "option_text": "27",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-s3-2",
+          "question_id": "q-ssc-3",
+          "option_text": "18",
+          "is_correct": true,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-s3-3",
+          "question_id": "q-ssc-3",
+          "option_text": "21",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-s3-4",
+          "question_id": "q-ssc-3",
+          "option_text": "24",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        }
+      ]
+    },
+    {
+      "id": "q-tech-1",
+      "quiz_id": "quiz-tech-dsa-gate",
+      "category_id": "cat-tech",
+      "subject_id": "sub-tech-dsa",
+      "question_text": "What is the worst-case time complexity of inserting n keys into an empty AVL tree?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.66,
+      "explanation": "An AVL tree is a self-balancing binary search tree. Each insertion takes O(log k) where k is the current number of keys. Inserting n elements sequentially takes sum of O(log i) for i=1 to n, which evaluates to O(n log n). Because the tree remains strictly height-balanced, worst-case height is always O(log n).",
+      "difficulty": "hard",
+      "source_type": "previous_year",
+      "source_reference": "GATE Computer Science",
+      "pyq_year": 2020,
+      "pyq_exam": "GATE CS",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.958Z",
+      "updated_at": "2026-10-14T16:30:52.958Z",
+      "options": [
+        {
+          "id": "opt-t1-1",
+          "question_id": "q-tech-1",
+          "option_text": "O(n)",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-t1-2",
+          "question_id": "q-tech-1",
+          "option_text": "O(n log n)",
+          "is_correct": true,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-t1-3",
+          "question_id": "q-tech-1",
+          "option_text": "O(n^2)",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        },
+        {
+          "id": "opt-t1-4",
+          "question_id": "q-tech-1",
+          "option_text": "O(log n)",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.958Z"
+        }
+      ]
+    },
+    {
+      "id": "q-tech-2",
+      "quiz_id": "quiz-tech-dsa-gate",
+      "category_id": "cat-tech",
+      "subject_id": "sub-tech-dsa",
+      "question_text": "Which of the following problems can be solved in polynomial time by reducing to a maximum bipartite matching problem?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.66,
+      "explanation": "By Konig theorem, in any bipartite graph, the maximum matching size equals the minimum vertex cover size. Thus minimum vertex cover on bipartite graphs is solvable in polynomial time.",
+      "difficulty": "hard",
+      "source_type": "previous_year",
+      "source_reference": "GATE CS 2017",
+      "pyq_year": 2017,
+      "pyq_exam": "GATE CS",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.959Z",
+      "updated_at": "2026-10-14T16:30:52.959Z",
+      "options": [
+        {
+          "id": "opt-t2-1",
+          "question_id": "q-tech-2",
+          "option_text": "Minimum Vertex Cover on Bipartite Graphs",
+          "is_correct": true,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-t2-2",
+          "question_id": "q-tech-2",
+          "option_text": "Hamiltonian Cycle on Planar Graphs",
+          "is_correct": false,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-t2-3",
+          "question_id": "q-tech-2",
+          "option_text": "3-Colorability on General Graphs",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-t2-4",
+          "question_id": "q-tech-2",
+          "option_text": "Traveling Salesman Problem",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        }
+      ]
+    },
+    {
+      "id": "q-tech-3",
+      "quiz_id": "quiz-tech-dsa-gate",
+      "category_id": "cat-tech",
+      "subject_id": "sub-tech-dsa",
+      "question_text": "In relational database theory, if every non-prime attribute is fully functionally dependent on the primary key, the relation is in at least:",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.66,
+      "explanation": "A relation is in Second Normal Form (2NF) if it is in 1NF and no non-prime attribute is partially dependent on any candidate key (i.e. every non-prime attribute is fully functionally dependent on every candidate key).",
+      "difficulty": "medium",
+      "source_type": "curated",
+      "source_reference": "Database System Concepts, Silberschatz",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.959Z",
+      "updated_at": "2026-10-14T16:30:52.959Z",
+      "options": [
+        {
+          "id": "opt-t3-1",
+          "question_id": "q-tech-3",
+          "option_text": "1NF",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-t3-2",
+          "question_id": "q-tech-3",
+          "option_text": "2NF",
+          "is_correct": true,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-t3-3",
+          "question_id": "q-tech-3",
+          "option_text": "3NF",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-t3-4",
+          "question_id": "q-tech-3",
+          "option_text": "BCNF",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        }
+      ]
+    },
+    {
+      "id": "q-ca-1",
+      "quiz_id": "quiz-daily-ca-special",
+      "category_id": "cat-general",
+      "subject_id": "sub-general-ca",
+      "question_text": "India recently launched the NISAR (NASA-ISRO Synthetic Aperture Radar) earth observation mission. Which frequency bands does NISAR utilize to track changes in Earth ecosystems and ice masses?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "NISAR is the world first dual-frequency radar imaging earth observation satellite. It operates in both L-band (developed by NASA JPL) and S-band (developed by ISRO) radar frequencies to provide systematic high-resolution planetary scanning.",
+      "difficulty": "medium",
+      "source_type": "current_affairs",
+      "source_reference": "ISRO Official Science Bulletin",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.959Z",
+      "updated_at": "2026-10-14T16:30:52.959Z",
+      "options": [
+        {
+          "id": "opt-c1-1",
+          "question_id": "q-ca-1",
+          "option_text": "C-band and X-band",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-c1-2",
+          "question_id": "q-ca-1",
+          "option_text": "L-band and S-band",
+          "is_correct": true,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-c1-3",
+          "question_id": "q-ca-1",
+          "option_text": "Ka-band and Ku-band",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-c1-4",
+          "question_id": "q-ca-1",
+          "option_text": "UHF and VHF",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        }
+      ]
+    },
+    {
+      "id": "q-ca-2",
+      "quiz_id": "quiz-daily-ca-special",
+      "category_id": "cat-general",
+      "subject_id": "sub-general-ca",
+      "question_text": "Which Indian state recently launched the \"Mission Vatsalya Digital Registry\" to enhance the monitoring and welfare delivery of vulnerable children?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "Mission Vatsalya is a centrally sponsored child protection services scheme under the Ministry of Women and Child Development, implemented across states with real-time digital registries to ensure rehabilitation and foster care monitoring.",
+      "difficulty": "easy",
+      "source_type": "current_affairs",
+      "source_reference": "PIB Government Press Release",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.959Z",
+      "updated_at": "2026-10-14T16:30:52.959Z",
+      "options": [
+        {
+          "id": "opt-c2-1",
+          "question_id": "q-ca-2",
+          "option_text": "Maharashtra",
+          "is_correct": true,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-c2-2",
+          "question_id": "q-ca-2",
+          "option_text": "Kerala",
+          "is_correct": false,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-c2-3",
+          "question_id": "q-ca-2",
+          "option_text": "Gujarat",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-c2-4",
+          "question_id": "q-ca-2",
+          "option_text": "Karnataka",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        }
+      ]
+    },
+    {
+      "id": "q-qotd-1",
+      "category_id": "cat-upsc",
+      "subject_id": "sub-upsc-polity",
+      "question_text": "Which Article of the Constitution of India provides for the establishment of the Finance Commission to recommend the distribution of tax revenues between the Union and the States?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.66,
+      "explanation": "Article 280 of the Constitution provides for the constitution of a Finance Commission by the President of India every fifth year (or at such earlier time as the President considers necessary).",
+      "difficulty": "easy",
+      "source_type": "previous_year",
+      "source_reference": "UPSC CSE Prelims",
+      "pyq_year": 2016,
+      "pyq_exam": "UPSC Civil Services",
+      "review_status": "approved",
+      "is_published": true,
+      "created_at": "2026-10-14T16:30:52.959Z",
+      "updated_at": "2026-10-14T16:30:52.959Z",
+      "options": [
+        {
+          "id": "opt-qd-1",
+          "question_id": "q-qotd-1",
+          "option_text": "Article 275",
+          "is_correct": false,
+          "order_index": 1,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-qd-2",
+          "question_id": "q-qotd-1",
+          "option_text": "Article 280",
+          "is_correct": true,
+          "order_index": 2,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-qd-3",
+          "question_id": "q-qotd-1",
+          "option_text": "Article 300A",
+          "is_correct": false,
+          "order_index": 3,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        },
+        {
+          "id": "opt-qd-4",
+          "question_id": "q-qotd-1",
+          "option_text": "Article 324",
+          "is_correct": false,
+          "order_index": 4,
+          "created_at": "2026-10-14T16:30:52.959Z"
+        }
+      ]
+    },
+    {
+      "category_id": "cat-upsc",
+      "question_text": "Which of the following constitutional amendments incorporated the 'Right to Education' as a Fundamental Right under Article 21A?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The 86th Constitutional Amendment Act, 2002, inserted Article 21A into the Constitution of India to make free and compulsory education for children between the ages of 6 and 14 a Fundamental Right.",
+      "difficulty": "easy",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453254-1g3s",
+      "created_at": "2026-10-14T16:30:53.254Z",
+      "updated_at": "2026-10-14T16:30:53.254Z"
+    },
+    {
+      "category_id": "cat-upsc",
+      "question_text": "With reference to the Indian economy, which of the following is the primary monetary policy tool used by the RBI to absorb surplus liquidity on an overnight basis without collateral?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The Standing Deposit Facility (SDF), operationalized by the RBI in 2022 under amended Section 17 of the RBI Act, enables the central bank to absorb surplus liquidity without requiring government securities as collateral.",
+      "difficulty": "hard",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453256-w9mp",
+      "created_at": "2026-10-14T16:30:53.256Z",
+      "updated_at": "2026-10-14T16:30:53.256Z"
+    },
+    {
+      "category_id": "cat-ssc",
+      "question_text": "A sum of money at compound interest doubles itself in 4 years. In how many years will it amount to 8 times itself at the same rate?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "If P becomes 2P in 4 years, then it becomes 2^3 P = 8P in 4 * 3 = 12 years.",
+      "difficulty": "medium",
+      "source_type": "ai_generated",
+      "source_reference": "SSC Quantitative Aptitude Practice",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453259-t1xj",
+      "created_at": "2026-10-14T16:30:53.259Z",
+      "updated_at": "2026-10-14T16:30:53.259Z"
+    },
+    {
+      "category_id": "cat-banking",
+      "question_text": "Which of the following constitutional amendments incorporated the 'Right to Education' as a Fundamental Right under Article 21A?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The 86th Constitutional Amendment Act, 2002, inserted Article 21A into the Constitution of India to make free and compulsory education for children between the ages of 6 and 14 a Fundamental Right.",
+      "difficulty": "easy",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453261-j7u6",
+      "created_at": "2026-10-14T16:30:53.261Z",
+      "updated_at": "2026-10-14T16:30:53.261Z"
+    },
+    {
+      "category_id": "cat-banking",
+      "question_text": "With reference to the Indian economy, which of the following is the primary monetary policy tool used by the RBI to absorb surplus liquidity on an overnight basis without collateral?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The Standing Deposit Facility (SDF), operationalized by the RBI in 2022 under amended Section 17 of the RBI Act, enables the central bank to absorb surplus liquidity without requiring government securities as collateral.",
+      "difficulty": "hard",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453263-1ygt",
+      "created_at": "2026-10-14T16:30:53.263Z",
+      "updated_at": "2026-10-14T16:30:53.263Z"
+    },
+    {
+      "category_id": "cat-railways",
+      "question_text": "Which of the following constitutional amendments incorporated the 'Right to Education' as a Fundamental Right under Article 21A?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The 86th Constitutional Amendment Act, 2002, inserted Article 21A into the Constitution of India to make free and compulsory education for children between the ages of 6 and 14 a Fundamental Right.",
+      "difficulty": "easy",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453267-c06g",
+      "created_at": "2026-10-14T16:30:53.267Z",
+      "updated_at": "2026-10-14T16:30:53.267Z"
+    },
+    {
+      "category_id": "cat-railways",
+      "question_text": "With reference to the Indian economy, which of the following is the primary monetary policy tool used by the RBI to absorb surplus liquidity on an overnight basis without collateral?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The Standing Deposit Facility (SDF), operationalized by the RBI in 2022 under amended Section 17 of the RBI Act, enables the central bank to absorb surplus liquidity without requiring government securities as collateral.",
+      "difficulty": "hard",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453269-afe7",
+      "created_at": "2026-10-14T16:30:53.269Z",
+      "updated_at": "2026-10-14T16:30:53.269Z"
+    },
+    {
+      "category_id": "cat-state-psc",
+      "question_text": "Which of the following constitutional amendments incorporated the 'Right to Education' as a Fundamental Right under Article 21A?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The 86th Constitutional Amendment Act, 2002, inserted Article 21A into the Constitution of India to make free and compulsory education for children between the ages of 6 and 14 a Fundamental Right.",
+      "difficulty": "easy",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453271-32ie",
+      "created_at": "2026-10-14T16:30:53.271Z",
+      "updated_at": "2026-10-14T16:30:53.271Z"
+    },
+    {
+      "category_id": "cat-state-psc",
+      "question_text": "With reference to the Indian economy, which of the following is the primary monetary policy tool used by the RBI to absorb surplus liquidity on an overnight basis without collateral?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The Standing Deposit Facility (SDF), operationalized by the RBI in 2022 under amended Section 17 of the RBI Act, enables the central bank to absorb surplus liquidity without requiring government securities as collateral.",
+      "difficulty": "hard",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453274-dlfb",
+      "created_at": "2026-10-14T16:30:53.274Z",
+      "updated_at": "2026-10-14T16:30:53.274Z"
+    },
+    {
+      "category_id": "cat-defense",
+      "question_text": "Which of the following constitutional amendments incorporated the 'Right to Education' as a Fundamental Right under Article 21A?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The 86th Constitutional Amendment Act, 2002, inserted Article 21A into the Constitution of India to make free and compulsory education for children between the ages of 6 and 14 a Fundamental Right.",
+      "difficulty": "easy",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453276-qrug",
+      "created_at": "2026-10-14T16:30:53.276Z",
+      "updated_at": "2026-10-14T16:30:53.276Z"
+    },
+    {
+      "category_id": "cat-defense",
+      "question_text": "With reference to the Indian economy, which of the following is the primary monetary policy tool used by the RBI to absorb surplus liquidity on an overnight basis without collateral?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The Standing Deposit Facility (SDF), operationalized by the RBI in 2022 under amended Section 17 of the RBI Act, enables the central bank to absorb surplus liquidity without requiring government securities as collateral.",
+      "difficulty": "hard",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453278-fqnc",
+      "created_at": "2026-10-14T16:30:53.278Z",
+      "updated_at": "2026-10-14T16:30:53.278Z"
+    },
+    {
+      "category_id": "cat-tech",
+      "question_text": "In modern operating systems, which scheduling algorithm is provably optimal in minimizing the average waiting time for a given set of processes?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "Shortest Job First (SJF) scheduling is provably optimal because moving a short process before a long one decreases the waiting time of the short process more than it increases that of the long process.",
+      "difficulty": "medium",
+      "source_type": "ai_generated",
+      "source_reference": "GATE Computer Science Operating Systems",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453281-xrde",
+      "created_at": "2026-10-14T16:30:53.281Z",
+      "updated_at": "2026-10-14T16:30:53.281Z"
+    },
+    {
+      "category_id": "cat-general",
+      "question_text": "Which of the following constitutional amendments incorporated the 'Right to Education' as a Fundamental Right under Article 21A?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The 86th Constitutional Amendment Act, 2002, inserted Article 21A into the Constitution of India to make free and compulsory education for children between the ages of 6 and 14 a Fundamental Right.",
+      "difficulty": "easy",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453283-8enl",
+      "created_at": "2026-10-14T16:30:53.283Z",
+      "updated_at": "2026-10-14T16:30:53.283Z"
+    },
+    {
+      "category_id": "cat-general",
+      "question_text": "With reference to the Indian economy, which of the following is the primary monetary policy tool used by the RBI to absorb surplus liquidity on an overnight basis without collateral?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "The Standing Deposit Facility (SDF), operationalized by the RBI in 2022 under amended Section 17 of the RBI Act, enables the central bank to absorb surplus liquidity without requiring government securities as collateral.",
+      "difficulty": "hard",
+      "source_type": "ai_generated",
+      "source_reference": "QuizMaster AI Practice Bank",
+      "review_status": "pending",
+      "is_published": false,
+      "id": "q-1791995453285-8red",
+      "created_at": "2026-10-14T16:30:53.285Z",
+      "updated_at": "2026-10-14T16:30:53.285Z"
+    },
+    {
+      "category_id": "cat-general",
+      "question_text": "Which planet is known as the Red Planet?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "Mars appears reddish due to iron oxide on its surface.",
+      "difficulty": "easy",
+      "source_type": "curated",
+      "source_reference": "Admin CSV Import",
+      "review_status": "approved",
+      "is_published": true,
+      "id": "q-1791995453309-llpt",
+      "created_at": "2026-10-14T16:30:53.309Z",
+      "updated_at": "2026-10-14T16:30:53.309Z"
+    },
+    {
+      "category_id": "cat-general",
+      "question_text": "What does SQL stand for?",
+      "question_type": "single_choice",
+      "marks": 2,
+      "negative_marks": 0.5,
+      "explanation": "SQL is the standard language for relational databases.",
+      "difficulty": "easy",
+      "source_type": "curated",
+      "source_reference": "Admin CSV Import",
+      "review_status": "approved",
+      "is_published": true,
+      "id": "q-1791995453311-p69f",
+      "created_at": "2026-10-14T16:30:53.311Z",
+      "updated_at": "2026-10-14T16:30:53.311Z"
+    }
+  ],
+  "answer_options": [
+    {
+      "id": "opt-u1-1",
+      "question_id": "q-upsc-1",
+      "option_text": "Right to strike against unfair workplace policies",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u1-2",
+      "question_id": "q-upsc-1",
+      "option_text": "Right to Privacy as an intrinsic component of liberty",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u1-3",
+      "question_id": "q-upsc-1",
+      "option_text": "Right to property as a fundamental right",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u1-4",
+      "question_id": "q-upsc-1",
+      "option_text": "Right to claim unrestricted government employment",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u2-1",
+      "question_id": "q-upsc-2",
+      "option_text": "1 only",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u2-2",
+      "question_id": "q-upsc-2",
+      "option_text": "1 and 2 only",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u2-3",
+      "question_id": "q-upsc-2",
+      "option_text": "2 and 3 only",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u2-4",
+      "question_id": "q-upsc-2",
+      "option_text": "1, 2 and 3",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u3-1",
+      "question_id": "q-upsc-3",
+      "option_text": "Seventh Schedule",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u3-2",
+      "question_id": "q-upsc-3",
+      "option_text": "Eighth Schedule",
+      "is_correct": false,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u3-3",
+      "question_id": "q-upsc-3",
+      "option_text": "Tenth Schedule",
+      "is_correct": true,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u3-4",
+      "question_id": "q-upsc-3",
+      "option_text": "Twelfth Schedule",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u4-1",
+      "question_id": "q-upsc-4",
+      "option_text": "The Lok Sabha with the prior recommendation of the President",
+      "is_correct": true,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u4-2",
+      "question_id": "q-upsc-4",
+      "option_text": "Either House of Parliament without any prior recommendation",
+      "is_correct": false,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u4-3",
+      "question_id": "q-upsc-4",
+      "option_text": "The Rajya Sabha directly by the Finance Minister",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u4-4",
+      "question_id": "q-upsc-4",
+      "option_text": "A joint committee of both Houses",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u5-1",
+      "question_id": "q-upsc-5",
+      "option_text": "Habeas Corpus",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u5-2",
+      "question_id": "q-upsc-5",
+      "option_text": "Mandamus",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u5-3",
+      "question_id": "q-upsc-5",
+      "option_text": "Quo-Warranto",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-u5-4",
+      "question_id": "q-upsc-5",
+      "option_text": "Certiorari",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s1-1",
+      "question_id": "q-ssc-1",
+      "option_text": "Rs. 950",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s1-2",
+      "question_id": "q-ssc-1",
+      "option_text": "Rs. 1000",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s1-3",
+      "question_id": "q-ssc-1",
+      "option_text": "Rs. 1050",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s1-4",
+      "question_id": "q-ssc-1",
+      "option_text": "Rs. 1100",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s2-1",
+      "question_id": "q-ssc-2",
+      "option_text": "72 km/h",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s2-2",
+      "question_id": "q-ssc-2",
+      "option_text": "90 km/h",
+      "is_correct": false,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s2-3",
+      "question_id": "q-ssc-2",
+      "option_text": "108 km/h",
+      "is_correct": true,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s2-4",
+      "question_id": "q-ssc-2",
+      "option_text": "120 km/h",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s3-1",
+      "question_id": "q-ssc-3",
+      "option_text": "27",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s3-2",
+      "question_id": "q-ssc-3",
+      "option_text": "18",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s3-3",
+      "question_id": "q-ssc-3",
+      "option_text": "21",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-s3-4",
+      "question_id": "q-ssc-3",
+      "option_text": "24",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-t1-1",
+      "question_id": "q-tech-1",
+      "option_text": "O(n)",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-t1-2",
+      "question_id": "q-tech-1",
+      "option_text": "O(n log n)",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-t1-3",
+      "question_id": "q-tech-1",
+      "option_text": "O(n^2)",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-t1-4",
+      "question_id": "q-tech-1",
+      "option_text": "O(log n)",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "opt-t2-1",
+      "question_id": "q-tech-2",
+      "option_text": "Minimum Vertex Cover on Bipartite Graphs",
+      "is_correct": true,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-t2-2",
+      "question_id": "q-tech-2",
+      "option_text": "Hamiltonian Cycle on Planar Graphs",
+      "is_correct": false,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-t2-3",
+      "question_id": "q-tech-2",
+      "option_text": "3-Colorability on General Graphs",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-t2-4",
+      "question_id": "q-tech-2",
+      "option_text": "Traveling Salesman Problem",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-t3-1",
+      "question_id": "q-tech-3",
+      "option_text": "1NF",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-t3-2",
+      "question_id": "q-tech-3",
+      "option_text": "2NF",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-t3-3",
+      "question_id": "q-tech-3",
+      "option_text": "3NF",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-t3-4",
+      "question_id": "q-tech-3",
+      "option_text": "BCNF",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-c1-1",
+      "question_id": "q-ca-1",
+      "option_text": "C-band and X-band",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-c1-2",
+      "question_id": "q-ca-1",
+      "option_text": "L-band and S-band",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-c1-3",
+      "question_id": "q-ca-1",
+      "option_text": "Ka-band and Ku-band",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-c1-4",
+      "question_id": "q-ca-1",
+      "option_text": "UHF and VHF",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-c2-1",
+      "question_id": "q-ca-2",
+      "option_text": "Maharashtra",
+      "is_correct": true,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-c2-2",
+      "question_id": "q-ca-2",
+      "option_text": "Kerala",
+      "is_correct": false,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-c2-3",
+      "question_id": "q-ca-2",
+      "option_text": "Gujarat",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-c2-4",
+      "question_id": "q-ca-2",
+      "option_text": "Karnataka",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-qd-1",
+      "question_id": "q-qotd-1",
+      "option_text": "Article 275",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-qd-2",
+      "question_id": "q-qotd-1",
+      "option_text": "Article 280",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-qd-3",
+      "question_id": "q-qotd-1",
+      "option_text": "Article 300A",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-qd-4",
+      "question_id": "q-qotd-1",
+      "option_text": "Article 324",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:52.959Z"
+    },
+    {
+      "id": "opt-q-1791995453254-1g3s-1",
+      "question_id": "q-1791995453254-1g3s",
+      "option_text": "73rd Amendment Act, 1992",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.254Z"
+    },
+    {
+      "id": "opt-q-1791995453254-1g3s-2",
+      "question_id": "q-1791995453254-1g3s",
+      "option_text": "86th Amendment Act, 2002",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.254Z"
+    },
+    {
+      "id": "opt-q-1791995453254-1g3s-3",
+      "question_id": "q-1791995453254-1g3s",
+      "option_text": "91st Amendment Act, 2003",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.254Z"
+    },
+    {
+      "id": "opt-q-1791995453254-1g3s-4",
+      "question_id": "q-1791995453254-1g3s",
+      "option_text": "44th Amendment Act, 1978",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.254Z"
+    },
+    {
+      "id": "opt-q-1791995453256-w9mp-1",
+      "question_id": "q-1791995453256-w9mp",
+      "option_text": "Reverse Repo Rate (RRR)",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.256Z"
+    },
+    {
+      "id": "opt-q-1791995453256-w9mp-2",
+      "question_id": "q-1791995453256-w9mp",
+      "option_text": "Standing Deposit Facility (SDF)",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.256Z"
+    },
+    {
+      "id": "opt-q-1791995453256-w9mp-3",
+      "question_id": "q-1791995453256-w9mp",
+      "option_text": "Marginal Standing Facility (MSF)",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.256Z"
+    },
+    {
+      "id": "opt-q-1791995453256-w9mp-4",
+      "question_id": "q-1791995453256-w9mp",
+      "option_text": "Cash Reserve Ratio (CRR)",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.256Z"
+    },
+    {
+      "id": "opt-q-1791995453259-t1xj-1",
+      "question_id": "q-1791995453259-t1xj",
+      "option_text": "8 years",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.259Z"
+    },
+    {
+      "id": "opt-q-1791995453259-t1xj-2",
+      "question_id": "q-1791995453259-t1xj",
+      "option_text": "12 years",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.259Z"
+    },
+    {
+      "id": "opt-q-1791995453259-t1xj-3",
+      "question_id": "q-1791995453259-t1xj",
+      "option_text": "16 years",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.259Z"
+    },
+    {
+      "id": "opt-q-1791995453259-t1xj-4",
+      "question_id": "q-1791995453259-t1xj",
+      "option_text": "24 years",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.259Z"
+    },
+    {
+      "id": "opt-q-1791995453261-j7u6-1",
+      "question_id": "q-1791995453261-j7u6",
+      "option_text": "73rd Amendment Act, 1992",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.261Z"
+    },
+    {
+      "id": "opt-q-1791995453261-j7u6-2",
+      "question_id": "q-1791995453261-j7u6",
+      "option_text": "86th Amendment Act, 2002",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.261Z"
+    },
+    {
+      "id": "opt-q-1791995453261-j7u6-3",
+      "question_id": "q-1791995453261-j7u6",
+      "option_text": "91st Amendment Act, 2003",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.261Z"
+    },
+    {
+      "id": "opt-q-1791995453261-j7u6-4",
+      "question_id": "q-1791995453261-j7u6",
+      "option_text": "44th Amendment Act, 1978",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.261Z"
+    },
+    {
+      "id": "opt-q-1791995453263-1ygt-1",
+      "question_id": "q-1791995453263-1ygt",
+      "option_text": "Reverse Repo Rate (RRR)",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.263Z"
+    },
+    {
+      "id": "opt-q-1791995453263-1ygt-2",
+      "question_id": "q-1791995453263-1ygt",
+      "option_text": "Standing Deposit Facility (SDF)",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.263Z"
+    },
+    {
+      "id": "opt-q-1791995453263-1ygt-3",
+      "question_id": "q-1791995453263-1ygt",
+      "option_text": "Marginal Standing Facility (MSF)",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.263Z"
+    },
+    {
+      "id": "opt-q-1791995453263-1ygt-4",
+      "question_id": "q-1791995453263-1ygt",
+      "option_text": "Cash Reserve Ratio (CRR)",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.263Z"
+    },
+    {
+      "id": "opt-q-1791995453267-c06g-1",
+      "question_id": "q-1791995453267-c06g",
+      "option_text": "73rd Amendment Act, 1992",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.267Z"
+    },
+    {
+      "id": "opt-q-1791995453267-c06g-2",
+      "question_id": "q-1791995453267-c06g",
+      "option_text": "86th Amendment Act, 2002",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.267Z"
+    },
+    {
+      "id": "opt-q-1791995453267-c06g-3",
+      "question_id": "q-1791995453267-c06g",
+      "option_text": "91st Amendment Act, 2003",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.267Z"
+    },
+    {
+      "id": "opt-q-1791995453267-c06g-4",
+      "question_id": "q-1791995453267-c06g",
+      "option_text": "44th Amendment Act, 1978",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.267Z"
+    },
+    {
+      "id": "opt-q-1791995453269-afe7-1",
+      "question_id": "q-1791995453269-afe7",
+      "option_text": "Reverse Repo Rate (RRR)",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.269Z"
+    },
+    {
+      "id": "opt-q-1791995453269-afe7-2",
+      "question_id": "q-1791995453269-afe7",
+      "option_text": "Standing Deposit Facility (SDF)",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.269Z"
+    },
+    {
+      "id": "opt-q-1791995453269-afe7-3",
+      "question_id": "q-1791995453269-afe7",
+      "option_text": "Marginal Standing Facility (MSF)",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.269Z"
+    },
+    {
+      "id": "opt-q-1791995453269-afe7-4",
+      "question_id": "q-1791995453269-afe7",
+      "option_text": "Cash Reserve Ratio (CRR)",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.269Z"
+    },
+    {
+      "id": "opt-q-1791995453271-32ie-1",
+      "question_id": "q-1791995453271-32ie",
+      "option_text": "73rd Amendment Act, 1992",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.271Z"
+    },
+    {
+      "id": "opt-q-1791995453271-32ie-2",
+      "question_id": "q-1791995453271-32ie",
+      "option_text": "86th Amendment Act, 2002",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.271Z"
+    },
+    {
+      "id": "opt-q-1791995453271-32ie-3",
+      "question_id": "q-1791995453271-32ie",
+      "option_text": "91st Amendment Act, 2003",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.271Z"
+    },
+    {
+      "id": "opt-q-1791995453271-32ie-4",
+      "question_id": "q-1791995453271-32ie",
+      "option_text": "44th Amendment Act, 1978",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.271Z"
+    },
+    {
+      "id": "opt-q-1791995453274-dlfb-1",
+      "question_id": "q-1791995453274-dlfb",
+      "option_text": "Reverse Repo Rate (RRR)",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.274Z"
+    },
+    {
+      "id": "opt-q-1791995453274-dlfb-2",
+      "question_id": "q-1791995453274-dlfb",
+      "option_text": "Standing Deposit Facility (SDF)",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.274Z"
+    },
+    {
+      "id": "opt-q-1791995453274-dlfb-3",
+      "question_id": "q-1791995453274-dlfb",
+      "option_text": "Marginal Standing Facility (MSF)",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.274Z"
+    },
+    {
+      "id": "opt-q-1791995453274-dlfb-4",
+      "question_id": "q-1791995453274-dlfb",
+      "option_text": "Cash Reserve Ratio (CRR)",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.274Z"
+    },
+    {
+      "id": "opt-q-1791995453276-qrug-1",
+      "question_id": "q-1791995453276-qrug",
+      "option_text": "73rd Amendment Act, 1992",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.276Z"
+    },
+    {
+      "id": "opt-q-1791995453276-qrug-2",
+      "question_id": "q-1791995453276-qrug",
+      "option_text": "86th Amendment Act, 2002",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.276Z"
+    },
+    {
+      "id": "opt-q-1791995453276-qrug-3",
+      "question_id": "q-1791995453276-qrug",
+      "option_text": "91st Amendment Act, 2003",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.276Z"
+    },
+    {
+      "id": "opt-q-1791995453276-qrug-4",
+      "question_id": "q-1791995453276-qrug",
+      "option_text": "44th Amendment Act, 1978",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.276Z"
+    },
+    {
+      "id": "opt-q-1791995453278-fqnc-1",
+      "question_id": "q-1791995453278-fqnc",
+      "option_text": "Reverse Repo Rate (RRR)",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.278Z"
+    },
+    {
+      "id": "opt-q-1791995453278-fqnc-2",
+      "question_id": "q-1791995453278-fqnc",
+      "option_text": "Standing Deposit Facility (SDF)",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.278Z"
+    },
+    {
+      "id": "opt-q-1791995453278-fqnc-3",
+      "question_id": "q-1791995453278-fqnc",
+      "option_text": "Marginal Standing Facility (MSF)",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.278Z"
+    },
+    {
+      "id": "opt-q-1791995453278-fqnc-4",
+      "question_id": "q-1791995453278-fqnc",
+      "option_text": "Cash Reserve Ratio (CRR)",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.278Z"
+    },
+    {
+      "id": "opt-q-1791995453281-xrde-1",
+      "question_id": "q-1791995453281-xrde",
+      "option_text": "Round Robin (RR)",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.281Z"
+    },
+    {
+      "id": "opt-q-1791995453281-xrde-2",
+      "question_id": "q-1791995453281-xrde",
+      "option_text": "Shortest Job First (SJF)",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.281Z"
+    },
+    {
+      "id": "opt-q-1791995453281-xrde-3",
+      "question_id": "q-1791995453281-xrde",
+      "option_text": "First-Come First-Served (FCFS)",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.281Z"
+    },
+    {
+      "id": "opt-q-1791995453281-xrde-4",
+      "question_id": "q-1791995453281-xrde",
+      "option_text": "Priority Scheduling",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.281Z"
+    },
+    {
+      "id": "opt-q-1791995453283-8enl-1",
+      "question_id": "q-1791995453283-8enl",
+      "option_text": "73rd Amendment Act, 1992",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.283Z"
+    },
+    {
+      "id": "opt-q-1791995453283-8enl-2",
+      "question_id": "q-1791995453283-8enl",
+      "option_text": "86th Amendment Act, 2002",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.283Z"
+    },
+    {
+      "id": "opt-q-1791995453283-8enl-3",
+      "question_id": "q-1791995453283-8enl",
+      "option_text": "91st Amendment Act, 2003",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.283Z"
+    },
+    {
+      "id": "opt-q-1791995453283-8enl-4",
+      "question_id": "q-1791995453283-8enl",
+      "option_text": "44th Amendment Act, 1978",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.283Z"
+    },
+    {
+      "id": "opt-q-1791995453285-8red-1",
+      "question_id": "q-1791995453285-8red",
+      "option_text": "Reverse Repo Rate (RRR)",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.285Z"
+    },
+    {
+      "id": "opt-q-1791995453285-8red-2",
+      "question_id": "q-1791995453285-8red",
+      "option_text": "Standing Deposit Facility (SDF)",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.285Z"
+    },
+    {
+      "id": "opt-q-1791995453285-8red-3",
+      "question_id": "q-1791995453285-8red",
+      "option_text": "Marginal Standing Facility (MSF)",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.285Z"
+    },
+    {
+      "id": "opt-q-1791995453285-8red-4",
+      "question_id": "q-1791995453285-8red",
+      "option_text": "Cash Reserve Ratio (CRR)",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.285Z"
+    },
+    {
+      "id": "opt-q-1791995453309-llpt-1",
+      "question_id": "q-1791995453309-llpt",
+      "option_text": "Venus",
+      "is_correct": false,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.309Z"
+    },
+    {
+      "id": "opt-q-1791995453309-llpt-2",
+      "question_id": "q-1791995453309-llpt",
+      "option_text": "Mars",
+      "is_correct": true,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.309Z"
+    },
+    {
+      "id": "opt-q-1791995453309-llpt-3",
+      "question_id": "q-1791995453309-llpt",
+      "option_text": "Jupiter",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.309Z"
+    },
+    {
+      "id": "opt-q-1791995453309-llpt-4",
+      "question_id": "q-1791995453309-llpt",
+      "option_text": "Saturn",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.309Z"
+    },
+    {
+      "id": "opt-q-1791995453311-p69f-1",
+      "question_id": "q-1791995453311-p69f",
+      "option_text": "Structured Query Language",
+      "is_correct": true,
+      "order_index": 1,
+      "created_at": "2026-10-14T16:30:53.311Z"
+    },
+    {
+      "id": "opt-q-1791995453311-p69f-2",
+      "question_id": "q-1791995453311-p69f",
+      "option_text": "Simple Query Language",
+      "is_correct": false,
+      "order_index": 2,
+      "created_at": "2026-10-14T16:30:53.311Z"
+    },
+    {
+      "id": "opt-q-1791995453311-p69f-3",
+      "question_id": "q-1791995453311-p69f",
+      "option_text": "Standard Query Line",
+      "is_correct": false,
+      "order_index": 3,
+      "created_at": "2026-10-14T16:30:53.311Z"
+    },
+    {
+      "id": "opt-q-1791995453311-p69f-4",
+      "question_id": "q-1791995453311-p69f",
+      "option_text": "Sequential Query Logic",
+      "is_correct": false,
+      "order_index": 4,
+      "created_at": "2026-10-14T16:30:53.311Z"
+    }
+  ],
+  "quiz_attempts": [
+    {
+      "id": "att-1791995453186-k3zp",
+      "quiz_id": "quiz-upsc-polity-prelims",
+      "user_id": "user-1791995453169-aq0ia",
+      "started_at": "2026-10-14T16:30:53.186Z",
+      "status": "completed",
+      "score": 2,
+      "total_marks": 10,
+      "percentage": 20,
+      "passed": false,
+      "time_taken_seconds": 320,
+      "last_active_at": "2026-10-14T16:30:53.220Z",
+      "created_at": "2026-10-14T16:30:53.186Z",
+      "completed_at": "2026-10-14T16:30:53.219Z"
+    }
+  ],
+  "submitted_answers": [
+    {
+      "id": "ans-1791995453201-jqi",
+      "attempt_id": "att-1791995453186-k3zp",
+      "question_id": "q-upsc-1",
+      "selected_option_id": "opt-u1-2",
+      "is_marked_for_review": false,
+      "is_correct": true,
+      "marks_awarded": 2,
+      "answered_at": "2026-10-14T16:30:53.217Z"
+    }
+  ],
+  "bookmarks": [],
+  "daily_challenges": [
+    {
+      "id": "daily-ch-1",
+      "challenge_date": "2026-10-14",
+      "question_id": "q-qotd-1",
+      "category_id": "cat-upsc",
+      "title": "Constitution & Polity Daily Master",
+      "xp_reward": 50,
+      "created_at": "2026-10-14T16:30:52.972Z"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-1",
+      "code": "FIRST_STEP",
+      "title": "First Step",
+      "description": "Completed your first quiz on QuizMaster",
+      "badge_icon": "Sparkles",
+      "xp_reward": 50,
+      "created_at": "2026-10-14T16:30:52.957Z"
+    },
+    {
+      "id": "ach-2",
+      "code": "PERFECT_SCORE",
+      "title": "Centurion",
+      "description": "Scored 100% on a full-length mock test",
+      "badge_icon": "Award",
+      "xp_reward": 200,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "ach-3",
+      "code": "STREAK_7",
+      "title": "7-Day Warrior",
+      "description": "Maintained a daily practice streak for 7 consecutive days",
+      "badge_icon": "Flame",
+      "xp_reward": 150,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "ach-4",
+      "code": "UPSC_SCHOLAR",
+      "title": "Civil Servant",
+      "description": "Completed 5 UPSC Civil Services mock tests",
+      "badge_icon": "GraduationCap",
+      "xp_reward": 100,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "ach-5",
+      "code": "SPEED_DEMON",
+      "title": "Speed Demon",
+      "description": "Completed a timed quiz in under 5 minutes with >= 80% accuracy",
+      "badge_icon": "Zap",
+      "xp_reward": 120,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    },
+    {
+      "id": "ach-6",
+      "code": "TECH_WIZARD",
+      "title": "Algorithm Master",
+      "description": "Scored top marks in Computer Science & DSA mock tests",
+      "badge_icon": "Cpu",
+      "xp_reward": 100,
+      "created_at": "2026-10-14T16:30:52.958Z"
+    }
+  ],
+  "user_achievements": [
+    {
+      "id": "ua-1791995453220",
+      "user_id": "user-1791995453169-aq0ia",
+      "achievement_id": "ach-1",
+      "unlocked_at": "2026-10-14T16:30:53.220Z"
+    }
+  ],
+  "scheduled_job_logs": [
+    {
+      "id": "job-1791995453288",
+      "job_name": "daily_question_import",
+      "status": "success",
+      "questions_imported": 14,
+      "questions_skipped": 0,
+      "details": {
+        "upsc-civil-services": {
+          "imported": 2,
+          "skipped": 0,
+          "errors": []
+        },
+        "ssc-exams": {
+          "imported": 1,
+          "skipped": 0,
+          "errors": []
+        },
+        "banking-insurance": {
+          "imported": 2,
+          "skipped": 0,
+          "errors": []
+        },
+        "railways-rrb": {
+          "imported": 2,
+          "skipped": 0,
+          "errors": []
+        },
+        "state-psc": {
+          "imported": 2,
+          "skipped": 0,
+          "errors": []
+        },
+        "defense-nda-cds": {
+          "imported": 2,
+          "skipped": 0,
+          "errors": []
+        },
+        "engineering-tech": {
+          "imported": 1,
+          "skipped": 0,
+          "errors": []
+        },
+        "general-current-affairs": {
+          "imported": 2,
+          "skipped": 0,
+          "errors": []
+        }
+      },
+      "error_message": "",
+      "started_at": "2026-10-14T16:30:53.288Z",
+      "finished_at": "2026-10-14T16:30:53.288Z"
+    },
+    {
+      "id": "job-1791995453249",
+      "job_name": "daily_question_import",
+      "status": "started",
+      "questions_imported": 0,
+      "questions_skipped": 0,
+      "details": {},
+      "error_message": "",
+      "started_at": "2026-10-14T16:30:53.249Z"
+    }
+  ],
+  "admin_audit_logs": [],
+  "otp_verifications": [
+    {
+      "id": "otp-1791995453126",
+      "mobile": "+919812345678",
+      "otp_hash": "a0007f10fc1b21e8a9084304ece7183d449807d5c62fb887681573d3db5fce68",
+      "expires_at": "2026-10-14T16:35:53.124Z",
+      "verified": true,
+      "attempts": 2,
+      "created_at": "2026-10-14T16:30:53.126Z"
+    },
+    {
+      "id": "otp-1791995836175",
+      "mobile": "+919322821972",
+      "otp_hash": "700faca5c428af3522cc58423747091c8c9479fdd55583c3fb39c7762865a29a",
+      "expires_at": "2026-10-14T16:42:16.175Z",
+      "verified": true,
+      "attempts": 2,
+      "created_at": "2026-10-14T16:37:16.175Z"
+    },
+    {
+      "id": "otp-1791995870340",
+      "mobile": "+919876543210",
+      "otp_hash": "1b3cec6d58e41f819109ce8fb0944eb0f87ed0a8faca3ebc18feced123be103a",
+      "expires_at": "2026-10-14T16:42:50.339Z",
+      "verified": true,
+      "attempts": 1,
+      "created_at": "2026-10-14T16:37:50.340Z"
+    }
+  ]
+}
